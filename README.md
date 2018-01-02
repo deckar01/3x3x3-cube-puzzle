@@ -1,8 +1,6 @@
 # 3x3x3 Cube Puzzle
 
-![cross section](./images/cross-section.png)
-
-![exploded](./images/exploded.png)
+![exploded](./images/exploded2.png)
 
 ## Printing
 
