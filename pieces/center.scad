@@ -27,3 +27,5 @@ module CenterPiece() {
         cylinder(r=screw_head_diameter/2 + piece_gap, h=width/2, $fn=cylinder_resolution);
     }
 }
+
+CenterPiece();

@@ -16,3 +16,5 @@ module CorePiece() {
         cylinder(r=(screw_diameter - piece_gap)/2, h=width, $fn=cylinder_resolution, center=true);
     }
 }
+
+CorePiece();
