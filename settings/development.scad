@@ -1,2 +1,2 @@
-piece_gap = .2;
+piece_gap = .05;
 resolution = 4;

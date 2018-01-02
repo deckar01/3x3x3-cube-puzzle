@@ -2,7 +2,7 @@ include <./development.scad>;
 //include <./production.scad>;
 
 width = 57;
-piece_bevel = 1;
+piece_bevel = 4;
 skid_bevel = 4;
 
 plate_thickness = 6;
