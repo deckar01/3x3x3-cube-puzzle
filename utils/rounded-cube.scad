@@ -1,6 +1,6 @@
 module RoundedCube(size, bevel, resolution) {
     if(len(size) == undef) {
-        _RoundedCube([size, size, size], bevel, resolution);
+        _RoundedCube([1, 1, 1] * size, bevel, resolution);
     } else {
         _RoundedCube(size, bevel, resolution);
     }
