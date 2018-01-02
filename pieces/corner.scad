@@ -16,9 +16,12 @@ module CornerPiece() {
             intersection() {
                 sphere(r=plate_radius, center=true, $fn=sphere_resolution);
                 
-                translate([0, 0, -piece_width - piece_gap])
-                translate([width/2 - outer_width/2, length, (outer_width - piece_width)/2])
-                RoundedCube([outer_width, piece_width, outer_width], skid_bevel, resolution);
+                translate([1, 1, -1] * length)
+                RoundedCube(
+                    [piece_width, piece_width, piece_width],
+                    skid_bevel,
+                    resolution
+                );
             }
         
             sphere(r=plate_radius - plate_thickness, center=true, $fn=sphere_resolution);
